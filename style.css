@@ -13,7 +13,7 @@
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
 
-    --bs-primary: #0d6efd;
+    --bs-primary: #8c4f8c;
     --bs-secondary: #6c757d;
 
     --bs-success: #198754;
@@ -23,7 +23,7 @@
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
 
-    --bs-primary-rgb: 13, 110, 253;
+    --bs-primary-rgb: 140, 79, 140;
     --bs-secondary-rgb: 108, 117, 125;
     --bs-success-rgb: 25, 135, 84;
     --bs-info-rgb: 13, 202, 240;
@@ -33,6 +33,8 @@
     --bs-dark-rgb: 33, 37, 41;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
+
+    --bs-btn-bg: var(--bs-primary);
 
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -49,7 +51,7 @@
     --bs-emphasis-color: #000;
     --bs-emphasis-color-rgb: 0, 0, 0;
 
-    --bs-secondary-color: rgba(33, 37, 41, 0.75);
+    --bs-secondary-color: rgba(95, 136, 177, 0.75);
     --bs-secondary-color-rgb: 33, 37, 41;
     --bs-secondary-bg: #e9ecef;
     --bs-secondary-bg-rgb: 233, 236, 239;
@@ -131,8 +133,6 @@ section {
         --bs-emphasis-color: #ffffff;
     }
 
-    body {
-    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
