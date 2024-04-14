@@ -1,0 +1,78 @@
+// Custom.scss
+
+// IMPORTANT
+// This is an SCSS file, a kind of project file that can be exported to CSS.
+// An SCSS file must be compiled to generate its corresponding CSS . 
+// All changes must be made in the SCSS source file, do not modify the CSS because the changes would be lost on the next export.
+// It must be compiled with an extension, download and install from the link below.
+// Name: Live Sass Compiler
+// https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass
+// Once installed, a "Watch Sass" entry will appear on the bottom right-hand bar of Visual Studio Code.
+// Press the button when working on the SCSS file, each time it is saved it will export a new copy of CUSTOM.CSS which contains a modified bootstrap version based on the variables set in the project.
+
+// Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "vendor/bootstrap-5.3.3-source/scss/functions";
+
+// 2. Include any default variable overrides here
+// Default variable overrides
+$body-bg: #ffffff;
+$body-color: #111111;
+$primary: #E52B2D;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "vendor/bootstrap-5.3.3-source/scss/variables";
+@import "vendor/bootstrap-5.3.3-source/scss/variables-dark";
+
+$secondary: $gray-900;
+
+// 4. Include any default map overrides here
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+);
+
+// 5. Include remainder of required parts
+@import "vendor/bootstrap-5.3.3-source/scss/maps";
+@import "vendor/bootstrap-5.3.3-source/scss/mixins";
+@import "vendor/bootstrap-5.3.3-source/scss/root";
+
+// 6. Optionally include any other parts as needed
+@import "vendor/bootstrap-5.3.3-source/scss/utilities";
+@import "vendor/bootstrap-5.3.3-source/scss/reboot";
+@import "vendor/bootstrap-5.3.3-source/scss/type";
+@import "vendor/bootstrap-5.3.3-source/scss/images";
+@import "vendor/bootstrap-5.3.3-source/scss/containers";
+@import "vendor/bootstrap-5.3.3-source/scss/grid";
+@import "vendor/bootstrap-5.3.3-source/scss/tables";
+@import "vendor/bootstrap-5.3.3-source/scss/forms";
+@import "vendor/bootstrap-5.3.3-source/scss/buttons";
+@import "vendor/bootstrap-5.3.3-source/scss/transitions";
+@import "vendor/bootstrap-5.3.3-source/scss/dropdown";
+@import "vendor/bootstrap-5.3.3-source/scss/button-group";
+@import "vendor/bootstrap-5.3.3-source/scss/nav";
+@import "vendor/bootstrap-5.3.3-source/scss/navbar";
+@import "vendor/bootstrap-5.3.3-source/scss/card";
+@import "vendor/bootstrap-5.3.3-source/scss/accordion";
+@import "vendor/bootstrap-5.3.3-source/scss/breadcrumb";
+@import "vendor/bootstrap-5.3.3-source/scss/pagination";
+@import "vendor/bootstrap-5.3.3-source/scss/badge";
+@import "vendor/bootstrap-5.3.3-source/scss/alert";
+@import "vendor/bootstrap-5.3.3-source/scss/progress";
+@import "vendor/bootstrap-5.3.3-source/scss/list-group";
+@import "vendor/bootstrap-5.3.3-source/scss/close";
+@import "vendor/bootstrap-5.3.3-source/scss/toasts";
+@import "vendor/bootstrap-5.3.3-source/scss/modal";
+@import "vendor/bootstrap-5.3.3-source/scss/tooltip";
+@import "vendor/bootstrap-5.3.3-source/scss/popover";
+@import "vendor/bootstrap-5.3.3-source/scss/carousel";
+@import "vendor/bootstrap-5.3.3-source/scss/spinners";
+@import "vendor/bootstrap-5.3.3-source/scss/offcanvas";
+@import "vendor/bootstrap-5.3.3-source/scss/placeholders";
+@import "vendor/bootstrap-5.3.3-source/scss/helpers";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "vendor/bootstrap-5.3.3-source/scss/utilities/api";
+
+// 8. Add additional custom code here
